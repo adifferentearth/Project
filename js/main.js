@@ -1,22 +1,22 @@
-<<<<<<< HEAD
+var aaronHuman = {
+	name: "Aaron",
+	attri: "Earth",
+	weapon: "Long-Sword",
+	role: "Tank",
+	morality: "Hero",
+};
 
 var melissaHuman = {
 	name: "Melissa",
-	attribute: "Water",
+	attri: "Water",
 	weapon: "Staff",
 	role: "Mage",
-	morality: "Hero"
-
+	morality: "Hero",
+	speak: function mSpeak(){
+	document.getElementById('melSpeak').innerHTML = 'Hello, I\'m Melissa';
+	},
 };
 
-
-var aaronHuman = {
-	name: "Aaron",
-	attribute: "Earth",
-	weapon: "Long-Sword",
-	role: "Tank",
-	morality: "Hero"
-};
 
 
 function nameInput(){
@@ -36,23 +36,4 @@ function nameInput(){
 function selectEarth(){
 	document.getElementById('selected-attri').innerHTML('You have selected Earth');
 }
-=======
-var aaronHuman = {
-	name: "Aaron",
-	attri: "Earth",
-	weapon: "Long-Sword",
-	role: "Tank",
-	morality: "Hero",
-};
 
-var melissaHuman = {
-	name: "Melissa",
-	attri: "Water",
-	weapon: "Staff",
-	role: "Mage",
-	morality: "Hero",
-	speak: function mSpeak(){
-	document.getElementById('melSpeak').innerHTML = 'Hello, I\'m Melissa';
-	},
-};
->>>>>>> ba89b179f4802f28b04934ad4790bb784343ea4c
