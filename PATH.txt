@@ -1,0 +1,30 @@
+// 8-24-2017	
+// Aaron Mendez and Melissa Evangelista
+// Plan: to give functionality to the websites name, attribute, weapon, role and morality.
+
+1. Design Front-End (x)
+
+2. "Name" Functionality ():
+- Make the input receive and store the values inserted and pass it on to the body at the bottom.
+
+3. "Attribute" Functionality ():
+- Select the values and store them, while passing it to the body at the bottom.
+
+4. "Weapon" Functionality ():
+- Select the values and store them, while passing it to the body at the bottom.
+
+5. "Role" Functionality ():
+- Select the values and store them, while passing it to the body at the bottom.
+
+6. "Morality" Functionality ():
+- Select the values and store them, while passing it to the body at the bottom.
+
+7. Create the Receiving Body ():
+- Store all values that have been inserted into this element by the other functionalitys.
+
+8. Debugging ():
+
+9. Styling ():
+
+10. Brain Storms ():
+- Database, Express.js, Passport.js, Forums, Blogs, Story, Users, Libraries and Frameworks that can serve a use, Onboarding if needed, Schedule if allowed possible, Direction (<-- Add more here whenever ...)
