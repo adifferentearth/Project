@@ -29,9 +29,10 @@
 		<center style="margin-top:50px;">
 			<h4>What is your name?</h4>
 			<form>
-				<input type="text" id="user-input" placeholder="Your Name."><br>
+				<input type="text" id="userInput" placeholder="Your Name."><br>
 				<input class="select-name" type="button" onclick="nameInput()" value="Declare it.">
 			</form>
+			<p id="yourName"></p>
 		</center>
 	</div>
 					<!-- SELECT YOUR ATTRIBUTES -->
@@ -39,11 +40,11 @@
 		<center style="margin-top:50px;">
 			<h4>What is your attribute?</h4>
 			<form>
-				<input class="select-attri" type="button" value="Earth" onclick="selectEarth()">
-				<input class="select-attri" type="button" value="Fire" onclick="">
-				<input class="select-attri" type="button" value="Water" onclick="">
-				<input class="select-attri" type="button" value="Electric" onclick="">
-				<input class="select-attri" type="button" value="Wind" onclick="">
+				<input id="earthInputFor" class="select-attri" type="button" value="Earth" onclick="earthInput()">
+				<input class="select-attri" type="button" value="Fire" onclick="fireInput()">
+				<input class="select-attri" type="button" value="Water" onclick="waterInput()">
+				<input class="select-attri" type="button" value="Electric" onclick="electricInput()">
+				<input class="select-attri" type="button" value="Wind" onclick="windInput()">
 			</form>
 			<p id="selected-attri"></p>
 		</center>

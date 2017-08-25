@@ -2,7 +2,6 @@
 	color:blue;
 }
 
-<<<<<<< HEAD
 .select-name {
 	margin-top:20px;
 	width:100px;
@@ -22,8 +21,15 @@
 	width:100px;
 }
 
-=======
+
 .font-indieflower {
 	font-family: 'Indie Flower', cursive;
 }
->>>>>>> ba89b179f4802f28b04934ad4790bb784343ea4c
+
+#yourName {
+	margin-top:30px;
+}
+
+#selected-attri {
+	margin:margin-top:30px;
+}

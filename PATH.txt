@@ -4,8 +4,8 @@
 
 1. Design Front-End (x)
 
-2. "Name" Functionality ():
-- Make the input receive and store the values inserted and pass it on to the body at the bottom.
+2. "Name" Functionality (x):
+- Make the input receive and store the values inserted and pass it in to the body at the bottom.
 
 3. "Attribute" Functionality ():
 - Select the values and store them, while passing it to the body at the bottom.
