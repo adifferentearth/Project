@@ -7,10 +7,10 @@
 2. "Name" Functionality (x):
 - Make the input receive and store the values inserted and pass it in to the body at the bottom.
 
-3. "Attribute" Functionality ():
+3. "Attribute" Functionality (X):
 - Select the values and store them, while passing it to the body at the bottom.
 
-4. "Weapon" Functionality ():
+4. "Weapon" Functionality (X):
 - Select the values and store them, while passing it to the body at the bottom.
 
 5. "Role" Functionality ():

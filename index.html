@@ -41,12 +41,12 @@
 			<h4>What is your attribute?</h4>
 			<form>
 				<input id="earthInputFor" class="select-attri" type="button" value="Earth" onclick="earthInput()">
-				<input class="select-attri" type="button" value="Fire" onclick="fireInput()">
-				<input class="select-attri" type="button" value="Water" onclick="waterInput()">
-				<input class="select-attri" type="button" value="Electric" onclick="electricInput()">
-				<input class="select-attri" type="button" value="Wind" onclick="windInput()">
+				<input id="fireInputFor" class="select-attri" type="button" value="Fire" onclick="fireInput()">
+				<input id="waterInputFor" class="select-attri" type="button" value="Water" onclick="waterInput()">
+				<input id="electricInputFor" class="select-attri" type="button" value="Electric" onclick="electricInput()">
+				<input id="windInputFor" class="select-attri" type="button" value="Wind" onclick="windInput()">
 			</form>
-			<p id="selected-attri"></p>
+			<p id="selectedAttri"></p>
 		</center>
 	</div>
 					<!-- SELECT YOUR WEAPON -->
@@ -54,27 +54,28 @@
 		<center>
 			<h4>What is your weapon of choice?</h4>
 			<form>
-				<input class="select-weapon" type="button" value="Self" onclick="">
-				<input class="select-weapon" type="button" value="Staff" onclick="">
-				<input class="select-weapon" type="button" value="LongSword" onclick="">
-				<input class="select-weapon" type="button" value="Shield" onclick="">
-				<input class="select-weapon" type="button" value="Mace" onclick="">
-				<input class="select-weapon" type="button" value="Daggers" onclick="">
-				<input class="select-weapon" type="button" value="LongBow" onclick="">
-				<input class="select-weapon" type="button" value="Hammer" onclick="">
-				<input class="select-weapon" type="button" value="Chains" onclick="">
+				<input id="selfInputFor" class="select-weapon" type="button" value="Self" onclick="selfWield()">
+				<input id="staffInputFor" class="select-weapon" type="button" value="Staff" onclick="staffWield()">
+				<input id="swordInputFor" class="select-weapon" type="button" value="Sword" onclick="swordWield()">
+				<input id="shieldInputFor" class="select-weapon" type="button" value="Shield" onclick="shieldWield()">
+				<input id="maceInputFor" class="select-weapon" type="button" value="Mace" onclick="maceWield()">
+				<input id="daggersInputFor" class="select-weapon" type="button" value="Daggers" onclick="daggersWield()">
+				<input id="bowInputFor" class="select-weapon" type="button" value="Bow" onclick="bowWield()">
+				<input id="hammerInputFor" class="select-weapon" type="button" value="Hammer" onclick="hammerWield()">
+				<input id="chainsInputFor" class="select-weapon" type="button" value="Chains" onclick="chainsWield()">
 			</form>
-			<p id="selected-weapon"></p>
+			<p id="selectedWeapon"></p>
 		</center>
 	</div>
 	<div class="container">
 		<center>
-			<h1 id="final-head"></h1>
-			<p id="final-body"></p>
+			<h1 id="finalHead"></h1>
+			<p id="finalBodyAttri"></p>
+			<p id="finalbodyWeap" style="margin-bottom:150px;"></p>
+
 		</center>
 	</div>
 <script src="js/main.js"></script>
-
 
 
 </body>
