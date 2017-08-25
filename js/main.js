@@ -92,8 +92,8 @@ function shieldWield(){
 
 function maceWield(){
 	var yourWeapon = document.getElementById('maceInputFor');
-	document.getElementById('selectedWeapon').innerHTML = "My weapon of choice is " + shieldInputFor.value + ".";
-	document.getElementById('finalbodyWeap').innerHTML = "My weapon of choice is " + selfInputFor.value + ".";
+	document.getElementById('selectedWeapon').innerHTML = "My weapon of choice is " + maceInputFor.value + ".";
+	document.getElementById('finalbodyWeap').innerHTML = "My weapon of choice is " + maceInputFor.value + ".";
 };
 
 function daggersWield(){
