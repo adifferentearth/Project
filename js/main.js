@@ -120,3 +120,12 @@ function chainsWield(){
 	document.getElementById('selectedWeapon').innerHTML = "My weapon of choice is " + chainsInputFor.value + ".";
 	document.getElementById('finalbodyWeap').innerHTML = "My weapon of choice is " + chainsInputFor.value + ".";
 };
+
+// Roles Functionalities
+
+function tankRole(){
+	var yourRole = document.getElementById('tankInputFor');
+	document.getElementById('selecedRole').innerHTML = "I will take my enemies head on. I am a  " + tankInputFor.value + ".";
+	document.getElementById('finalBodyRole').innerHTML = "I will take my enemies head on. I am a  " + tankInputFor.value + ".";
+};
+
