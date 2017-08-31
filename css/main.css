@@ -7,8 +7,6 @@
 	width:100px;
 }
 
-
-
 .select-attri {
 	margin:10px;
 	margin-top:30px;
@@ -21,7 +19,6 @@
 	width:100px;
 }
 
-
 .font-indieflower {
 	font-family: 'Indie Flower', cursive;
 }
@@ -30,13 +27,8 @@
 	margin-top:30px;
 }
 
-#selected-attri {
-	margin:margin-top:30px;
-}
-
 .select-role {
 	margin:10px;
 	margin-top:30px;
 	width:100px;
-}
 }

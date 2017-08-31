@@ -125,7 +125,18 @@ function chainsWield(){
 
 function tankRole(){
 	var yourRole = document.getElementById('tankInputFor');
-	document.getElementById('selecedRole').innerHTML = "I will take my enemies head on. I am a  " + tankInputFor.value + ".";
+	document.getElementById('selectedRole').innerHTML = "I will take my enemies head on. I am a  " + tankInputFor.value + ".";
 	document.getElementById('finalBodyRole').innerHTML = "I will take my enemies head on. I am a  " + tankInputFor.value + ".";
 };
 
+function utilityRole(){
+	var yourRole = document.getElementById('utilityInputFor');
+	document.getElementById('selectedRole').innerHTML = "I will never fail a comrade. I'd rather die then that.. I am the " + utilityInputFor.value + ".";
+	document.getElementById('finalBodyRole').innerHTML = "I will never fail a comrade. I'd rather die then that.. I am the " + utilityInputFor.value + ".";
+};
+
+function fighterRole(){
+	var yourRole = document.getElementById('fighterInputFor');
+	document.getElementById('selectedRole').innerHTML = "" + fighterInputFor.value + ".";
+	document.getElementById('finalBodyRole').innerHTML = " " + fighterInputFor.value + ".";
+};
