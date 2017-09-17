@@ -16,8 +16,8 @@
 					<!-- HEADER INTRO ON WORKERS -->
 	<div class="container">
 		<center>	
-			<h1 class="font-indieflower color-blue" id="intro0">Project #1</h1>
-			<h4 class="font-indieflower" id="intro1">This project's contributors are Aaron Mendez, Melissa Evangelista and Alexis Polanco. We hope you enjoy it!</h4>
+			<h1 class="font-indieflower color-blue" id="intro0">A Different Earth: Stories</h1>
+			<h4 class="font-indieflower" id="intro1">Welcome to your Story! </h4>
 
 			<!--<button onclick="melissaHuman.speak()">Melissa Speak!</button>
 			<p id="melSpeak"></p>-->
@@ -46,7 +46,7 @@
 				<input id="electricInputFor" class="select-attri" type="button" value="Electric" onclick="electricInput()">
 				<input id="windInputFor" class="select-attri" type="button" value="Wind" onclick="windInput()">
 			</form>
-			<p id="selectedAttri"></p>
+			<p id="selectedAttri" style="margin-top:15px;"></p>
 		</center>
 	</div>
 					<!-- SELECT YOUR WEAPON -->
@@ -64,9 +64,10 @@
 				<input id="hammerInputFor" class="select-weapon" type="button" value="Hammer" onclick="hammerWield()">
 				<input id="chainsInputFor" class="select-weapon" type="button" value="Chains" onclick="chainsWield()">
 			</form>
-			<p id="selectedWeapon"></p>
+			<p id="selectedWeapon" style="margin-top:15px;"></p>
 		</center>
 	</div>
+						<!-- SELECT YOUR ROLE -->
 	<div class="container">
 		<center>
 			<form>
@@ -79,7 +80,18 @@
 				<input id="rangerInputFor" class="select-role" type="button" value="Ranger" onclick="rangerRole()">
 
 			</form>
-			<p id="selectedRole"></p>
+			<p id="selectedRole" style="margin-top:15px;"></p>
+		</center>
+	</div>
+					<!-- SELECT YOUR MORALITY -->
+	<div>
+		<center>
+			<form>
+				<h4>What is your Morality?</h4>
+				<input id="heroInputFor" class="select-morality" type="button" value="Hero" onclick="heroMorality()">
+				<input id="villainInputFor" class="select-morality" type="button" value="Villain" onclick="villainMorality()">
+			</form>
+			<p id="selectedMorality" style="margin-top:15px;"></p>
 		</center>
 	</div>
 	<div class="container" style="background-color:#333;color:white;">
@@ -87,7 +99,8 @@
 			<h1 id="finalHead"></h1>
 			<p id="finalBodyAttri"></p>
 			<p id="finalbodyWeap"></p>
-			<p id="finalBodyRole" style="margin-bottom:150px;"></p>
+			<p id="finalBodyRole"></p>
+			<p id="finalBodyMorality" style="margin-bottom:150px;"></p>
 
 		</center>
 	</div>

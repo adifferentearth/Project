@@ -32,3 +32,29 @@
 	margin-top:30px;
 	width:100px;
 }
+
+#yourName {
+	color:blue;
+}
+
+#selectedAttri {
+	color:blue;
+}
+
+#selectedWeapon {
+	color:blue;
+}
+
+#selectedRole {
+	color:blue;
+}
+
+.select-morality {
+	margin:10px;
+	margin-top:30px;
+	width:100px;
+}
+
+#selectedMorality {
+	color:blue;
+}

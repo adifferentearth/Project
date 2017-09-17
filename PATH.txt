@@ -13,10 +13,10 @@
 4. "Weapon" Functionality (X):
 - Select the values and store them, while passing it to the body at the bottom.
 
-5. "Role" Functionality ():
+5. "Role" Functionality (x):
 - Select the values and store them, while passing it to the body at the bottom.
 
-6. "Morality" Functionality ():
+6. "Morality" Functionality (x):
 - Select the values and store them, while passing it to the body at the bottom.
 
 7. Create the Receiving Body ():
